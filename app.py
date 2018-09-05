@@ -5,7 +5,7 @@ import constants
 class App:
 
 	def __init__(self):
-		pyxel.init(120, 220, fps = 60)
+		pyxel.init(120, 220, fps = 60, scale=3)
 		pyxel.image(0).load(0, 0, 'block.png')
 		self.reset()
 		pyxel.run(self.update, self.draw)
