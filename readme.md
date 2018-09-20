@@ -1,3 +1,4 @@
+### Note: You can find more polished (ui and controls) version over [here](https://github.com/shivanju/pyxel-games/tree/master/Tetris)  
 A minimal tetris clone made in [Pyxel](https://github.com/kitao/pyxel)
 
 1. Run app.py to start the game.
