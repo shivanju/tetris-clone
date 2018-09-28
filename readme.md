@@ -7,3 +7,7 @@ A minimal tetris clone made in [Pyxel](https://github.com/kitao/pyxel)
 4. Q to quit and R to restart.
 
 Improvements are welcome.
+
+## License
+[MIT](LICENSE.md)
+

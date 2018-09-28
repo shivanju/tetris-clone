@@ -28,17 +28,15 @@ class App:
 
 		move_direction = None
 		rotate_direction = None
-		if pyxel.btnp(pyxel.constants.KEY_LEFT, 60, 30):
+		if pyxel.btnp(pyxel.constants.KEY_LEFT, 20, 10):
 			move_direction = constants.direction_L
-		elif pyxel.btnp(pyxel.constants.KEY_RIGHT ,60, 30):
+		elif pyxel.btnp(pyxel.constants.KEY_RIGHT ,20, 10):
 			move_direction = constants.direction_R
-		elif pyxel.btnp(pyxel.constants.KEY_DOWN ,60, 30):
+		elif pyxel.btnp(pyxel.constants.KEY_DOWN ,20, 1):
 			move_direction = constants.direction_D
-		elif pyxel.btn(pyxel.constants.KEY_UP):
-			move_direction = constants.direction_D
-		elif pyxel.btnp(pyxel.constants.KEY_Z ,60, 30):
+		elif pyxel.btnp(pyxel.constants.KEY_Z ,20, 20):
 			rotate_direction = constants.direction_L
-		elif pyxel.btnp(pyxel.constants.KEY_X ,60, 30):
+		elif pyxel.btnp(pyxel.constants.KEY_X ,20, 20):
 			rotate_direction = constants.direction_R
 
 		if  self.block.move_block(move_direction, self.grid):
